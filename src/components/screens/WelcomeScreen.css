@@ -1,0 +1,17 @@
+.welcome-btn {
+    background-color: #0bbeba !important;
+}
+
+.welcome-footer {
+    background-color: #0bbeba;
+}
+
+.created-by {
+    font-size: .75rem;
+}
+
+.footer-name {
+    height: fit-content;
+    text-decoration: none;
+    font-size: .75rem;
+}

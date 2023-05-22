@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "SalonikiaVkf";
+    src: url("./src/fonts/SalonikiaVkf.otf");
+}
+
+* {
+    font-family: 'SalonikiaVkf';
+    letter-spacing: .125rem;
+}
+
+.btn {
+    border: none;
+}
+
+.btn-primary {
+    background-color: #0bbeba !important;
+    border-color: #0bbeba !important;
+}

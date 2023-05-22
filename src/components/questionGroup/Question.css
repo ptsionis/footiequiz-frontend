@@ -1,0 +1,10 @@
+.question {
+    background-color: #e9d49a;
+}
+
+.level {
+    top: -20px;
+    right: -10px;
+    border: 2px solid white;
+    background-color: #0bbeba;
+}

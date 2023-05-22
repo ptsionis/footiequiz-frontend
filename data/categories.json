@@ -1,0 +1,8 @@
+[
+  { "name": "history", "icon": "history.png", "color": "#6c4520" },
+  { "name": "geography", "icon": "geography.png", "color": "#1369ab" },
+  { "name": "logo", "icon": "logo.png", "color": "#9d2800" },
+  { "name": "misses", "icon": "misses.png", "color": "#20ca26" },
+  { "name": "bio", "icon": "bio.png", "color": "#7518c1" },
+  { "name": "hide", "icon": "hide.png", "color": "#333333" }
+]

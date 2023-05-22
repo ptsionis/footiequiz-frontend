@@ -1,0 +1,12 @@
+.header-title {
+    background-color: #e9d49a;
+}
+
+.room-id {
+    background-color: white;
+    flex: 1;
+}
+
+.clipboard-btn {
+    background-color: #0bbeba !important;
+}
