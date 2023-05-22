@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const URL = process.env.URL;
+const URL = "https://quizball-be.onrender.com/";
 
 export const socket = io(URL, {
     autoConnect: false
