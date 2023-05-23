@@ -13,6 +13,7 @@ export default function JoinRoomBtn(props) {
       type="button"
       className="btn my-3 fs-3 py-2 px-4 text-light fw-bold room-btn"
       onClick={() => changeScreen()}
+      disabled={props.disableButton}
     >
       ΕΙΣΟΔΟΣ ΣΕ ΔΩΜΑΤΙΟ
     </button>
