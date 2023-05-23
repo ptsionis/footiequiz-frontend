@@ -1,7 +1,8 @@
 import { io } from 'socket.io-client';
+import dotenv from "dotenv"
 
-const URL = "https://quizball-be.onrender.com/";
+dotenv.config();
 
-export const socket = io(URL, {
+export const socket = io(process.env.URL, {
     autoConnect: false
 });
