@@ -55,8 +55,8 @@ export default function NewRoomScreen(props) {
             <img src={copyClipboard} style={{ width: "15px" }} />
           </button>
         </div>
-        <span className="text-center text-light bg-danger mb-1 p-3 rounded">
-          ΠΕΡΙΜΕΝΕΤΕ ΜΕΧΡΙ ΝΑ ΕΜΦΑΝΙΣΤΕΙ Ο ΚΩΔΙΚΟΣ & ΜΕΤΑ ΑΝΤΙΓΡΑΨΤΕ ΤΟΝ (ΠΕΡΙΕΧΕΙ ΜΟΝΟ ΠΕΖΑ ΓΡΑΜΜΑΤΑ)
+        <span className="text-center text-light bg-danger my-1 rounded">
+          ΠΕΡΙΜΕΝΕΤΕ ΜΕΧΡΙ ΝΑ ΕΜΦΑΝΙΣΤΕΙ Ο ΚΩΔΙΚΟΣ, ΜΕΤΑ ΑΝΤΙΓΡΑΨΤΕ ΤΟΝ! (ΠΕΡΙΕΧΕΙ ΠΕΖΑ ΓΡΑΜΜΑΤΑ)
         </span>
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center mt-5">

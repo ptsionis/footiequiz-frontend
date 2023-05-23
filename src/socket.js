@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client';
 
-export const socket = io(import.meta.VITE_URL, {
+export const socket = io("https://quizball-be.onrender.com/", {
     autoConnect: false
 });
