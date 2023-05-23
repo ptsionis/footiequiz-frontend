@@ -55,9 +55,8 @@ export default function NewRoomScreen(props) {
             <img src={copyClipboard} style={{ width: "15px" }} />
           </button>
         </div>
-        <span className="text-center text-danger mb-1 rounded">
-          Ο ΚΩΔΙΚΟΣ ΕΙΝΑΙ ΜΕ ΠΕΖΑ ΓΡΑΜΜΑΤΑ ΚΑΙ ΑΡΙΘΜΟΥΣ! (ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΟ
-          ΕΙΚΟΝΙΔΙΟ ΓΙΑ ΑΝΤΙΓΡΑΦΗ)
+        <span className="text-center text-light bg-danger mb-1 p-3 rounded">
+          ΠΕΡΙΜΕΝΕΤΕ ΜΕΧΡΙ ΝΑ ΕΜΦΑΝΙΣΤΕΙ Ο ΚΩΔΙΚΟΣ & ΜΕΤΑ ΑΝΤΙΓΡΑΨΤΕ ΤΟΝ (ΠΕΡΙΕΧΕΙ ΜΟΝΟ ΠΕΖΑ ΓΡΑΜΜΑΤΑ)
         </span>
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center mt-5">

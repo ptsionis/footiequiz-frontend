@@ -58,7 +58,7 @@ export default function MenuBtn(props) {
       style={{ backgroundColor: props.color }}
     >
       <img
-        src={"./../images/categories/" + props.icon}
+        src={"/images/categories/" + props.icon}
         className="position-absolute menu-img"
       />
       {categoryDisplay + " x" + props.level}
