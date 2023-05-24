@@ -12,7 +12,7 @@ import retire from "/images/trophies/trophy_retire.png";
 
 export default function TrophyScreen(props) {
 
-  return props.finalMyScore > 38 ? (
+  return props.finalMyScore > 17 ? (
     <div className={screenClassName}>
       <p
         className={
@@ -30,7 +30,7 @@ export default function TrophyScreen(props) {
         CAMPEON DEL MUNDO
       </p>
     </div>
-  ) : props.finalMyScore > 22 ? (
+  ) : props.finalMyScore > 12 ? (
     <div className={screenClassName}>
       <p
         className={
@@ -48,7 +48,7 @@ export default function TrophyScreen(props) {
         ΤΑ ΜΕΓΑΛΑ ΑΥΤΙΑ
       </p>
     </div>
-  ) : props.finalMyScore > 11 ? (
+  ) : props.finalMyScore > 7 ? (
     <div className={screenClassName}>
       <p
         className={
@@ -66,7 +66,7 @@ export default function TrophyScreen(props) {
         ΟΥΝΑΪ ΕΜΕΡΙ
       </p>
     </div>
-  ) : props.finalMyScore > 5 ? (
+  ) : props.finalMyScore > 3 ? (
     <div className={screenClassName}>
       <p
         className={
