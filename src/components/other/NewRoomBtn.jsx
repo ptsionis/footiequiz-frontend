@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./RoomBtn.css";
 import { Screen } from "../../App";
 
 export default function NewRoomBtn(props) {
@@ -11,7 +10,7 @@ export default function NewRoomBtn(props) {
   return (
     <button
       type="button"
-      className="btn my-3 fs-3 py-2 px-4 text-light fw-bold room-btn"
+      className="btn btn-primary my-3 fs-3 py-2 px-4 text-light fw-bold"
       onClick={() => changeScreen()}
       disabled={props.disableButton}
     >

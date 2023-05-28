@@ -19,7 +19,7 @@ export default function Question(props) {
         <p className="text-center mb-2 rounded px-4 py-3 question">
           {props.question}
         </p>
-        <p className="text-light px-2 py-1 rounded-circle position-absolute level">
+        <p className="px-2 py-1 rounded-circle position-absolute level">
           X{props.level}
         </p>
       </div>
@@ -28,7 +28,7 @@ export default function Question(props) {
         className="mt-3"
         style={{ width: "auto", height: props.img ? "100%" : "0px" }}
       />
-      <p className="text-center text-danger fs-6 fw-bold mt-3">{tip}</p>
+      <p className="text-center text-light px-3 py-2 fs-6 fw-bold mt-3 rounded tip">{tip}</p>
     </div>
   ) : (
     <div className="d-flex flex-column align-items-center fs-5 my-4">

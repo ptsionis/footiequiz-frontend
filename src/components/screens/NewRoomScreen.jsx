@@ -49,7 +49,7 @@ export default function NewRoomScreen(props) {
           </span>
           <button
             type="button"
-            className="btn py-1 px-3 py-2 clipboard-btn"
+            className="btn btn-primary py-1 px-3 py-2"
             onClick={() => copyRoomId()}
           >
             <img src={copyClipboard} style={{ width: "15px" }} />

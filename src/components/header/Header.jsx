@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Header.css";
+import "./Header.css"
 
 import Score from "./Score";
 import DoubleBtn from "./DoubleBtn";

@@ -5,6 +5,11 @@
 .level {
     top: -20px;
     right: -10px;
-    border: 2px solid white;
-    background-color: #0bbeba;
+    color: white !important;
+    border: 2px solid white !important;
+    background-color: #ff042e !important;
+}
+
+.tip {
+    background-color: #ff042e !important;
 }

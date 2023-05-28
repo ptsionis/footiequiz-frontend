@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import "./JoinRoomScreen.css";
 import { screenClassName } from "../../screenClassName";
 import { Screen } from "../../App";
 import { socket } from "../../socket";
@@ -57,7 +56,7 @@ export default function JoinRoomScreen(props) {
           </form>
           <button
             type="button"
-            className="btn py-1 px-3 py-2 join-btn"
+            className="btn btn-primary py-1 px-3 py-2"
             onClick={() => enterRoom()}
           >
             ΕΙΣΟΔΟΣ

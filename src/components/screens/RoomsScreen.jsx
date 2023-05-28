@@ -34,7 +34,6 @@ export default function RoomsScreen(props) {
         sitekey={import.meta.env.VITE_CAPTCHA_KEY}
         onChange={() => captchaChecked()}
         onExpired={() => captchaExpired()}
-        style={{ backgroundColor: "#84c4cc" }}
       />
     </div>
   );
