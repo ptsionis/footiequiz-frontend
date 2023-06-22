@@ -6,7 +6,7 @@ Visit FootieQuiz [here](https://www.footiequiz.eu/).
 
 The back-end for FootieQuiz can be found in this [repository](https://github.com/ptsionis/footiequiz-backend).
 
-##About the game
+## About the game
 
 FootieQuiz consists of 18 football questions, divided in 6 categories:
 - HISTORY (ΙΣΤΟΡΙΑ)
