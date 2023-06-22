@@ -6,6 +6,20 @@ Visit FootieQuiz [here](https://www.footiequiz.eu/).
 
 The back-end for FootieQuiz can be found in this [repository](https://github.com/ptsionis/footiequiz-backend).
 
+#About the game
+
+FootieQuiz consists of 18 football questions, divided in 6 categories:
+- HISTORY (ΙΣΤΟΡΙΑ)
+- GEOGRAPHY (ΓΕΩΓΡΑΦΙΑ)
+- MISSES (ΠΟΙΟΣ ΛΕΙΠΕΙ)
+- LOGO (ΛΟΓΟΤΥΠΑ)
+- PLAYER ID
+- HIDDEN (ΚΡΥΦΗ)
+
+When it is a player's turn, they can choose one question of the remaining avaible, aka the questions that have not been played yet. After they click in a category, both the question and all four available answer will appear. The player can then choose one of the provided answers, and see if it was the correct or wrong answer. In case it was correct, he gets a total number of points, equal to the difficulty of the level. In case he used the Double Help and the answer was correct, he gets double the points. Finally, it is time for the opponent to play. After all 18 questions have been played, users will see who won and in which score tier they are.
+
+Players can use the Help buttons, Double and Tip, only once. Double help can only be used before the player chooses a question, while Tip help can be used only after the player chose a question. Help lasts only for one round, and cannot be used afterwards, no matter if the player found the correct answer when the help buttons were used.
+
 ## Instructions
 
 Below there are mentioned the basic use cases for FootieQuiz. Specifically, we will see how to create a room, join a room and start playing.
