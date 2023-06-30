@@ -24,7 +24,7 @@ export default function WelcomeScreen(props) {
       <div className="vw-100 d-flex justify-content-center py-2 bottom-0 position-fixed bg-primary">
         <span className="text-center text-light created-by">CREATED BY </span>
         <a
-          href="https://www.linkedin.com/in/ptsionis/"
+          href="https://ptsionis.gr/"
           className="mx-2 text-light footer-name"
           target="_blank"
         >
